@@ -276,7 +276,7 @@ export default function Dashboard() {
                     <div className="text-right">
                       <p className="text-[9px] font-black text-slate-400 uppercase">Total Portfolio Value</p>
                       <p className="text-xl font-black text-slate-800 italic">
-                        {(stackedStats.total / 1000000000).toFixed(1)}B <span className="text-[10px] text-slate-400">IDR</span>
+                        {(stackedStats.total / 1000000000).toFixed(1)}M <span className="text-[10px] text-slate-400">IDR</span>
                       </p>
                     </div>
                   </div>
