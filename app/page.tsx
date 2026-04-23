@@ -317,21 +317,21 @@ export default function Dashboard() {
                         <div className="w-2 h-2 bg-emerald-500 rounded-full" />
                         <span className="text-[9px] font-black text-slate-400 uppercase">Closing</span>
                       </div>
-                      <p className="text-sm font-black text-emerald-600">{(stackedStats.success.val / 1000000000).toFixed(1)}B</p>
+                      <p className="text-sm font-black text-emerald-600">{(stackedStats.success.val / 1000000000).toFixed(1)}M</p>
                     </div>
                     <div className="space-y-1">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-blue-600 rounded-full" />
                         <span className="text-[9px] font-black text-slate-400 uppercase">Active Pipeline</span>
                       </div>
-                      <p className="text-sm font-black text-blue-600">{(stackedStats.inProgress.val / 1000000000).toFixed(1)}B</p>
+                      <p className="text-sm font-black text-blue-600">{(stackedStats.inProgress.val / 1000000000).toFixed(1)}M</p>
                     </div>
                     <div className="space-y-1">
                       <div className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-slate-300 rounded-full" />
                         <span className="text-[9px] font-black text-slate-400 uppercase">Rejected/Lost</span>
                       </div>
-                      <p className="text-sm font-black text-slate-400">{(stackedStats.rejected.val / 1000000000).toFixed(1)}B</p>
+                      <p className="text-sm font-black text-slate-400">{(stackedStats.rejected.val / 1000000000).toFixed(1)}M</p>
                     </div>
                   </div>
                 </div>
